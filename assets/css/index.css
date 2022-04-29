@@ -1,0 +1,16 @@
+.header-top-items{
+    display: flex;
+    justify-content: space-between;
+}
+.links,.icons{
+    display: flex;
+}
+.header-bottom-item{
+    display: flex;
+}
+.search-items{
+    display: flex;
+}
+.footer-bottom-items{
+    display: flex;
+}
