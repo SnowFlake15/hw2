@@ -1,3 +1,6 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .container{
     width: 960px;
     margin: auto;
@@ -224,7 +227,7 @@
 }
 .footer-top-items{
     display: flex;
-    padding-top: 40px;
+    padding: 40px 0px;
 }
 .footer-top-item{
     width: 25%;
@@ -269,11 +272,16 @@
     width: 100%;
     display: flex;
     justify-content: end;
+    margin-bottom: 11px;
 }
 .footer-top-item i{
     font-size: 12px;
     margin-right: 10px;
     color: var(--gray11);
+}
+.footer-top-link i{
+    color: var(--blue);
+    margin-left: 3px;
 }
 .footer-top-item li{
     display: flex;
@@ -282,4 +290,34 @@
     padding-bottom: 8px;
     padding-top: 10px;
     border-bottom: 1px solid var(--gray10);
+}
+
+.footer-bottom{
+    background-color: var(--gray12);
+    margin-top: 1px solid var(--gray15);
+}
+.footer-bottom-items{
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--gray13);
+}
+.footer-top-item form input,.footer-top-item form textarea{
+    width: 100%;
+    background-color: var(--gray10);
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 11px 10px;
+    font-size: 13px;
+}
+.latest-posts h5{
+    font-size: 14px;
+}
+.latest-posts p{
+    font-size: 12px;
+}
+.post-date{
+    font-size: 10px;
 }
