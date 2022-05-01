@@ -144,7 +144,6 @@
 .hero-item.block{
     width: 550px;
     height: 440px;
-    background-image: url("/assets/img/img1.jpg");
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
